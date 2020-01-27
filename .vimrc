@@ -1,11 +1,3 @@
-" git clone https://github.com/w0rp/ale ~/.vim/bundle/ale
-" git submodule add https://github.com/flazz/vim-colorschemes.git ~/.vim/bundle/colorschemes
-" git clone https://github.com/itchyny/lightline.vim ~/.vim/bundle/lightline.vim
-" git clone https://github.com/christoomey/vim-tmux-navigator.git ~/.vim/bundle/vim-tmux-navigator
-" git clone https://github.com/hashivim/vim-terraform.git ~/.vim/bundle/vim-terraform
-" git clone https://github.com/pangloss/vim-javascript.git ~/.vim/bundle/vim-javascript
-" git clone https://github.com/majutsushi/tagbar ~/.vim/bundle/tagbar
-
 
 execute pathogen#infect()
 syntax on
