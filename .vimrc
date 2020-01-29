@@ -12,6 +12,7 @@ set autoindent
 set backspace=indent,start
 set rtp+=/usr/local/opt/fzf
 set tags=./.git/tags,.git/tags;$HOME
+set -g default-terminal "screen-256color"
 
 highlight LineNr ctermfg=grey
 
@@ -109,6 +110,8 @@ nnoremap <leader>v "*p
 nnoremap <leader>c "*y
 " Toggle Tagbar
 nnoremap <leader>t :TagbarToggle<cr>
+" load skeleton file
+nnoremap <leader>l :r $template/skeleton.
 
 
 " autoclose tags
