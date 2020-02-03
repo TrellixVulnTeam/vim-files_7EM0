@@ -110,6 +110,8 @@ nnoremap <leader>al :ALELint<cr>
 " toggle gutter
 nnoremap <leader>at :ALEToggle<cr>
 
+" copy to end of line
+map Y y$
 " paste from clipboard
 nnoremap <leader>v "*p
 " copy to clipboard
