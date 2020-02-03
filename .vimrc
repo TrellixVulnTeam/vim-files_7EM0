@@ -5,10 +5,16 @@ filetype plugin indent on
 
 let g:elite_mode=1
 set number relativenumber
+set cursorline
 set tabstop=2
+set softtabstop=2
 set shiftwidth=2
 set expandtab
 set autoindent
+set foldmethod=indent
+set foldnestmax=10
+set nofoldenable
+set foldlevel=2
 set backspace=indent,start
 set rtp+=/usr/local/opt/fzf
 set tags=./.git/tags,.git/tags;$HOME
