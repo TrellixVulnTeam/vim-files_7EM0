@@ -11,6 +11,8 @@ set softtabstop=2
 set shiftwidth=2
 set expandtab
 set autoindent
+set ignorecase
+set smartcase
 set foldmethod=indent
 set foldnestmax=10
 set nofoldenable
@@ -121,12 +123,6 @@ nnoremap <leader>t :TagbarToggle<cr>
 " load skeleton file
 nnoremap <leader>l :r $template/skeleton.
 
-
-" autoclose tags
-"inoremap ( ()<Left>
-"inoremap { {}<Left>
-"inoremap [ []<Left>
-"inoremap " ""<Left>
 
 " tmux pane movements
 nnoremap <silent> <c-h> :TmuxNavigateLeft<cr>
