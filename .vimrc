@@ -20,7 +20,6 @@ set foldlevel=2
 set backspace=indent,start
 set rtp+=/usr/local/opt/fzf
 set tags=./.git/tags,.git/tags;$HOME
-set -g default-terminal "screen-256color"
 
 highlight LineNr ctermfg=grey
 
