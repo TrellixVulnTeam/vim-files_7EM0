@@ -57,6 +57,13 @@ let mapleader="\<Space>"
 
 " save current buffer
 nnoremap <leader>w :w<cr>
+" save all buffers
+nnoremap <leader>W :bufdo w<cr>
+
+" reload current buffer
+nnoremap <leader>r :e<cr>
+" relaod all buffers
+nnoremap <leader>R :bufdo e<cr>
 
 " replace the word under cursor
 nnoremap <leader>s :%s/\<<c-r><c-w>\>//g<left><left>
