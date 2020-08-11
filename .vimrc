@@ -26,6 +26,7 @@ highlight LineNr ctermfg=grey
 let g:ale_lint_on_save = 1
 let g:javascript_plugin_jsdoc = 1
 let g:tmux_navigator_no_mappings = 1
+let g:autotagStartMethod='fork'
 let $templates = '~/.vim/templates'
 
 colorscheme jellybeans
