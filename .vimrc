@@ -96,8 +96,14 @@ nnoremap <leader>ph :Ve<cr>
 " open horizontal pane to the right
 nnoremap <leader>pl :Ve!<cr>
 
+" open vertical pane to the left for models
+nnoremap <leader>pm :60vs<cr>
+
 " open finder in new split
 nnoremap <leader>p; :Hexplore \| :FZF<cr>
+
+" new tab
+nnoremap <leader>nt :tabnew<cr>
 
 
 "" FUZZY FINDER ""
@@ -130,6 +136,13 @@ nnoremap <leader>t :TagbarToggle<cr>
 " load skeleton file
 nnoremap <leader>l :r $template/skeleton.
 
+" repeat macro
+nnoremap , @@
+" run macro
+nnoremap <leader>m @
+
+" normal mode from insert mode
+inoremap jj <esc>
 
 " tmux pane movements
 nnoremap <silent> <c-h> :TmuxNavigateLeft<cr>
