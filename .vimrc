@@ -109,7 +109,7 @@ nnoremap <leader>nt :tabnew<cr>
 "" FUZZY FINDER ""
 
 " open finder
-nnoremap <leader>; :FZF<cr>
+nnoremap <silent> <c-f> :FZF<cr>
 
 " open finder in new split
 nnoremap <leader>p; :Hexplore \| :FZF<cr>
@@ -143,6 +143,13 @@ nnoremap <leader>m @
 
 " normal mode from insert mode
 inoremap jj <esc>
+
+" buffer navigation
+nnoremap <leader>h :bprevious<CR>
+nnoremap <leader>l :bnext<CR>
+nnoremap <leader>k :bfirst<CR>
+nnoremap <leader>j :blast<CR>
+nnoremap <leader>; :buffers<CR>:buffer<SPACE>
 
 " tmux pane movements
 nnoremap <silent> <c-h> :TmuxNavigateLeft<cr>
