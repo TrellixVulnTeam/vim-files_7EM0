@@ -110,7 +110,8 @@ nnoremap <leader>nt :tabnew<cr>
 "" FUZZY FINDER ""
 
 " open finder
-nnoremap <silent> <c-f> :FZF<cr>
+nnoremap <silent> <c-f> :Files<cr>
+nnoremap <silent> <c-a> :Ag<cr>
 
 " open finder in new split
 nnoremap <leader>p; :Hexplore \| :FZF<cr>
