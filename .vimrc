@@ -27,7 +27,7 @@ let g:ale_lint_on_save = 1
 let g:javascript_plugin_jsdoc = 1
 let g:tmux_navigator_no_mappings = 1
 let g:autotagStartMethod='fork'
-let g:gutentags_cache_dir='.git/tags'
+let g:gutentags_ctags_tagfile='.git/tags'
 let $templates = '~/.vim/templates'
 
 let g:fzf_tags_command = 'ctags --extra=+f -R'
