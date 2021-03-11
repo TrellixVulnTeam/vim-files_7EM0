@@ -2,8 +2,10 @@
 execute pathogen#infect()
 syntax on
 filetype plugin indent on
+packadd! vimspector
 
 let g:elite_mode=1
+let g:vimspector_enable_mappings='HUMAN'
 set number relativenumber
 set cursorline
 set tabstop=2
