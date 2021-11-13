@@ -1,0 +1,10 @@
+[user]
+	email = ntiedt@captechconsulting.com
+	name = Nathan Tiedt
+[init]
+	templatedir = ~/.git-templates
+[alias]
+	chekcout = checkout
+	tpush = push
+	tpull = pull
+	cehckout = checkout
